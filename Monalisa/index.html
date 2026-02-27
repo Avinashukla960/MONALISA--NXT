@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monalisa — NXT</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon.svg" sizes="any" />
+  <link rel="shortcut icon" href="assets/Web Icon/web-icon.jpeg" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="promo-bar">Get 6% dicount on new Brand Collections Alltime.</div>
+  
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">MONALISA</div>
+      <nav id="primary-nav" class="top-nav" aria-label="Primary">
+        <a href="#" class="nav-link" data-category="NEW ARRIVALS" data-mega="new-arrivals" aria-haspopup="true" aria-expanded="false">NEW ARRIVALS</a>
+        <a href="#" class="nav-link" data-category="CLOTHING" data-mega="clothing" aria-haspopup="true" aria-expanded="false">CLOTHING</a>
+        <a href="#" class="nav-link" data-category="ACCESSORIES" data-mega="accessories" aria-haspopup="true" aria-expanded="false">ACCESSORIES</a>
+        <!-- <a href="#" class="nav-link" data-category="" data-mega="designers" aria-haspopup="true" aria-expanded="false">DESIGNERS</a> -->
+        <a href="#" class="nav-link" data-category="Shirting-Shuiting" data-mega="Shirting-Shuiting" aria-haspopup="true" aria-expanded="false">Shirting-Shuiting</a> 
+        <a href="#" class="nav-link" data-category="EMPORIUM" data-mega="emporium" aria-haspopup="true" aria-expanded="false">EMPORIUM</a>
+        <a href="#" class="nav-link" data-category="BRANDS" data-mega="brands" aria-haspopup="true" aria-expanded="false">BRANDS</a>
+        <a href="#" class="nav-link" data-category="" data-mega="contact" aria-haspopup="true" aria-expanded="false">CONTACT US</a>
+      </nav>
+      <div class="icons">
+        <button id="menu-toggle" class="icon icon-btn menu-toggle" aria-label="Menu" aria-controls="primary-nav" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M4 7h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M4 12h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="icon icon-btn search" aria-label="Search">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </button>
+        <button class="icon icon-btn account" aria-label="Account">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="7" r="4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
+        </button>
+        <button id="cart-btn" class="icon icon-btn cart" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6h15l-1.5 9H8.5L6 6z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><path d="M6 6L4 2H2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/><circle cx="10" cy="20" r="1" fill="currentColor"/><circle cx="18" cy="20" r="1" fill="currentColor"/></svg>
+          <span class="cart-count">(<span id="cart-count">0</span>)</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mega-panel" data-mega-panel="new-arrivals" aria-label="New arrivals menu">
+      <div class="mega-inner">
+        <div class="mega-col mega-links">
+          <a href="#" class="mega-link" data-category="NEW ARRIVALS">New Arrivals</a>
+          <a href="#" class="mega-link">Pre-Order</a>
+        </div>
+
+        <div class="mega-col mega-media mega-media--2" aria-hidden="true">
+          <a href="#" class="mega-card mega-card--tall" style="--img:url('assets/hero-background-home.png');--pos:35% center"></a>
+          <a href="#" class="mega-card mega-card--tall" style="--img:url('assets/hero-background-home.png');--pos:70% center;--filter:grayscale(100%)"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mega-panel" data-mega-panel="accessories" aria-label="Accessories menu">
+      <div class="mega-inner">
+        <div class="mega-col mega-links">
+          <a href="#" class="mega-link" data-category="ACCESSORIES">Shop All Accessories</a>
+          <a href="#" class="mega-link">Jewellery</a>
+          <a href="#" class="mega-link">Sunglasses</a>
+          <a href="#" class="mega-link">Bags</a>
+          <a href="#" class="mega-link">Shoes</a>
+          <a href="#" class="mega-link">Caps</a>
+          <a href="#" class="mega-link">Intimates</a>
+          <a href="#" class="mega-link">Perfume</a>
+        </div>
+
+        <div class="mega-col mega-cats" aria-hidden="true">
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:18% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Jewellery</div>
+              <div class="mega-cat__count">38 products</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:36% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Sunglasses</div>
+              <div class="mega-cat__count">7 products</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:52% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Bags</div>
+              <div class="mega-cat__count">3 products</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:66% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Shoes</div>
+              <div class="mega-cat__count">19 products</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:78% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Hats</div>
+              <div class="mega-cat__count">2 products</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:92% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Intimates</div>
+              <div class="mega-cat__count">1 product</div>
+            </div>
+          </a>
+
+          <button class="mega-cat-next" type="button" aria-label="Next">
+            <span aria-hidden="true">›</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mega-panel" data-mega-panel="emporium" aria-label="Emporium menu">
+      <div class="mega-inner">
+        <div class="mega-col mega-links">
+          <a href="#" class="mega-link" data-category="EMPORIUM">Shop All Emporium</a>
+          <a href="#" class="mega-link">Statues</a>
+          <a href="#" class="mega-link">Fountains</a>
+          <a href="#" class="mega-link">Designer Clocks</a>
+          <a href="#" class="mega-link">Bollywood Gift Items</a>
+        </div>
+
+        <div class="mega-col mega-cats mega-cats--4" aria-hidden="true">
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:22% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Statues</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:44% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Fountains</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:64% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Designer Clocks</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat" style="--img:url('assets/hero-background-home.png');--pos:82% center">
+            <div class="mega-cat__img"></div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Bollywood Gift Items</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+
+          <button class="mega-cat-next" type="button" aria-label="Next">
+            <span aria-hidden="true">&rsaquo;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mega-panel" data-mega-panel="brands" aria-label="Brands menu">
+      <div class="mega-inner">
+        <div class="mega-col mega-links">
+          <a href="#" class="mega-link" data-category="BRANDS">Shop All Brands</a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="us-polo">
+            <span class="mega-link__label">U.S. Polo</span>
+            <img class="brand-logo" src="assets/brands/us-polo.svg" alt="U.S. Polo logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="pepe-jeans">
+            <span class="mega-link__label">Pepe Jeans</span>
+            <img class="brand-logo" src="assets/brands/pepe-jeans.png" alt="Pepe Jeans logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="mufti">
+            <span class="mega-link__label">Mufti</span>
+            <img class="brand-logo" src="assets/brands/mufti.webp" alt="Mufti logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="killer">
+            <span class="mega-link__label">Killer</span>
+            <img class="brand-logo" src="assets/brands/killer.webp" alt="Killer logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="raymond">
+            <span class="mega-link__label">Raymond</span>
+            <img class="brand-logo" src="assets/brands/raymond.webp" alt="Raymond logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="parx">
+            <span class="mega-link__label">Parx</span>
+            <img class="brand-logo" src="assets/brands/parx.webp" alt="Parx logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="crimsoune-club">
+            <span class="mega-link__label">Crimsoune Club</span>
+            <img class="brand-logo" src="assets/brands/crimsoune-club.avif" alt="Crimsoune Club logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="monte-carlo">
+            <span class="mega-link__label">Monte Carlo</span>
+            <img class="brand-logo" src="assets/brands/monte-carlo.webp" alt="Monte Carlo logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="woodland">
+            <span class="mega-link__label">Woodland</span>
+            <img class="brand-logo" src="assets/brands/woodland.webp" alt="Woodland logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="jockey">
+            <span class="mega-link__label">Jockey</span>
+            <img class="brand-logo" src="assets/brands/jockey.webp" alt="Jockey logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="van-heusen">
+            <span class="mega-link__label">Van Heusen</span>
+            <img class="brand-logo" src="assets/brands/van-heusen.webp" alt="Van Heusen logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="libas">
+            <span class="mega-link__label">Libas</span>
+            <img class="brand-logo" src="assets/brands/libas.webp" alt="Libas logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="siffar">
+            <span class="mega-link__label">Manyavar</span>
+            <img class="brand-logo" src="assets/brands/manyavar.webp" alt="Siffar logo" loading="lazy" decoding="async">
+          </a>
+          <a href="#" class="mega-link mega-link--brand" data-brand="siffar">
+            <span class="mega-link__label">Sweet Dreams</span>
+            <img class="brand-logo" src="assets/brands/sweet-dreams.png" alt="Siffar logo" loading="lazy" decoding="async">
+          </a>
+          
+        </div>
+
+        <div class="mega-col mega-cats" aria-hidden="true">
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/us-polo.svg" alt="U.S. Polo logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">U.S. Polo</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/pepe-jeans.png" alt="Pepe Jeans logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Pepe Jeans</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/mufti.webp" alt="Mufti logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Mufti</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/killer.webp" alt="Killer logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Killer</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/raymond.webp" alt="Raymond logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Raymond</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/parx.webp" alt="Parx logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Parx</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/crimsoune-club.avif" alt="Crimsoune Club logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Crimsoune Club</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/monte-carlo.webp" alt="Monte Carlo logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Monte Carlo</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/woodland.webp" alt="Woodland logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Woodland</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/jockey.svg" alt="Jockey logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Jockey</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/van-heusen.webp" alt="Van Heusen logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Van Heusen</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/libas.webp" alt="Libas logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Libas</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/siffar.webp" alt="Siffar logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Siffar</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/spykar.webp" alt="Spykar logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Spykar</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/laxmipati.avif" alt="Laxmipati logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Laxmipati</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/park-avenue.webp" alt="Park Avenue logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Park Avenue</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/manyavar.webp" alt="Manyavar logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Manyavar</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/navab.webp" alt="Nawab logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Nawab</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/success.avif" alt="Success logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Success</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/hyphen.png" alt="Hyphen logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Hyphen</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/arvind.webp" alt="Arvind logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Arvind</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/junior-killer.webp" alt="Junior Killer logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Junior Killer</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/gini-jony.webp" alt="Gini & Jony logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Gini & Jony</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/lakme.webp" alt="Lakme logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Lakme</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/jovees.png" alt="Jovees logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Jovees</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/american-tourister.webp" alt="American Tourister logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">American Tourister</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/wildcraft.png" alt="Wildcraft logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Wildcraft</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/sweet-dreams.png" alt="Sweet Dreams logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Sweet Dreams</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/sparky.png" alt="Sparky logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Sparky</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+          <a href="#" class="mega-cat">
+            <div class="mega-cat__img">
+              <img class="mega-cat__logo" src="assets/brands/status-quo.png" alt="Status Quo logo" loading="lazy" decoding="async">
+            </div>
+            <div class="mega-cat__meta">
+              <div class="mega-cat__title">Status Quo</div>
+              <div class="mega-cat__count">Explore</div>
+            </div>
+          </a>
+
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="mega-panel" data-mega-panel="contact" aria-label="Contact menu">
+      <div class="mega-inner mega-inner--contact">
+        <div class="contact-block">
+          <div class="contact-title">Get In Touch</div>
+          <a class="contact-link" href="mailto:support@monalisa.example">support@monalisa.example</a>
+          <a class="contact-link" href="tel:+91 6422357352">+91 6422357352</a>
+          <div class="contact-muted">We typically reply within 24 hours.</div>
+
+          <div class="contact-actions">
+            <a class="contact-btn" href="#" aria-label="Live chat">
+              <span>Chat</span>
+            </a>
+            <a class="contact-btn" href="#" aria-label="Help center">
+              <span>Help</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-block">
+          <div class="contact-title">Visit Us</div>
+          <div class="contact-text">
+            Monalisa <br>
+            R.B. Market main road<br>
+            Near Allahbad Bank<br>
+
+            Godda Jharkhand, 814133
+          </div>
+          <div class="contact-muted"> • Mon - Sun (10am–9pm)</div>
+          <a class="contact-link" href="https://maps.app.goo.gl/85q641rBLV4DMEuN8" aria-label="Open map">Get directions</a>
+        </div>
+
+        <div class="contact-block">
+          <div class="contact-title">Follow</div>
+          <div class="social-row" aria-label="Social media">
+            <a class="social-icon" href="" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="6" y="6" width="12" height="12" rx="3.2" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.6"/>
+                <circle cx="16.4" cy="7.6" r="0.9" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social-icon" href="#" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 8h2V5h-2c-2.2 0-4 1.8-4 4v2H8v3h2v6h3v-6h2.3l.7-3H13V9c0-.6.4-1 1-1z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social-icon" href="#" aria-label="TikTok">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 5c.7 1.7 2.2 3 4 3.2V11c-1.6-.1-3-.6-4-1.5v6.3c0 2.4-2 4.2-4.4 4.2-2.2 0-4-1.8-4-4 0-2.4 2-4.2 4.4-4.2.3 0 .7 0 1 .1v2.7c-.3-.1-.6-.2-1-.2-1 0-1.8.7-1.8 1.7 0 .9.7 1.6 1.6 1.6 1.1 0 1.7-.7 1.7-2.1V5h2.5z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a class="social-icon" href="#" aria-label="X">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.7 5H16l-4.3 5.1L7.9 5H5l5.3 7-5 7h2.7l3.6-4.3L16.1 19H19l-5.6-7.5L18.7 5z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
+
+          <div class="contact-title contact-title--small">More</div>
+          <a class="contact-link" href="#" aria-label="Returns policy">Returns &amp; Exchanges</a>
+          <a class="contact-link" href="#" aria-label="Shipping info">Shipping</a>
+          <a class="contact-link" href="#" aria-label="Privacy policy">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="mega-panel mega-panel--designers" data-mega-panel="designers" aria-label="Designers menu">
+      <div class="mega-inner mega-inner--designers">
+        <div class="mega-col designer-groups" aria-label="Designer groups">
+          <button class="designer-group is-active" type="button" data-designer-group="ad">
+            <span>A - D</span>
+            <span class="designer-group__chev" aria-hidden="true">&rsaquo;</span>
+          </button>
+          <button class="designer-group" type="button" data-designer-group="ek">
+            <span>E - K</span>
+            <span class="designer-group__chev" aria-hidden="true">&rsaquo;</span>
+          </button>
+          <button class="designer-group" type="button" data-designer-group="lr">
+            <span>L - R</span>
+            <span class="designer-group__chev" aria-hidden="true">&rsaquo;</span>
+          </button>
+          <button class="designer-group" type="button" data-designer-group="sz">
+            <span>S - Z</span>
+            <span class="designer-group__chev" aria-hidden="true">&rsaquo;</span>
+          </button>
+        </div>
+
+        <div class="mega-col designer-list" aria-label="Designer list">
+          <a href="#" class="designer-item" data-designer-group="ad">ACLER</a>
+          <a href="#" class="designer-item" data-designer-group="ad">ALEO</a>
+          <a href="#" class="designer-item" data-designer-group="ad">ALIAS MAE</a>
+          <a href="#" class="designer-item" data-designer-group="ad">AM EYEWEAR</a>
+          <a href="#" class="designer-item" data-designer-group="ad">ANINE BING</a>
+          <a href="#" class="designer-item" data-designer-group="ad">ASSEMBLY LABEL</a>
+          <a href="#" class="designer-item" data-designer-group="ad">BAYSE</a>
+          <a href="#" class="designer-item" data-designer-group="ad">BEC + BRIDGE</a>
+          <a href="#" class="designer-item" data-designer-group="ad">BLANCA</a>
+          <a href="#" class="designer-item" data-designer-group="ad">BRIE LEON</a>
+          <a href="#" class="designer-item" data-designer-group="ad">BY JOHNNY</a>
+          <a href="#" class="designer-item" data-designer-group="ad">CAMILLA AND MARC</a>
+          <a href="#" class="designer-item" data-designer-group="ad">CHARLIE HOLIDAY</a>
+          <a href="#" class="designer-item" data-designer-group="ad">CLEA</a>
+          <a href="#" class="designer-item" data-designer-group="ad">DOLCETTO DESIGNS</a>
+
+          <a href="#" class="designer-item" data-designer-group="ek">ENA PELLY</a>
+          <a href="#" class="designer-item" data-designer-group="ek">FAITHFULL</a>
+          <a href="#" class="designer-item" data-designer-group="ek">HANSEN &amp; GRETEL</a>
+          <a href="#" class="designer-item" data-designer-group="ek">KIVARI</a>
+
+          <a href="#" class="designer-item" data-designer-group="lr">LACAUSA</a>
+          <a href="#" class="designer-item" data-designer-group="lr">MARLE</a>
+          <a href="#" class="designer-item" data-designer-group="lr">RAEF THE LABEL</a>
+
+          <a href="#" class="designer-item" data-designer-group="sz">SIR THE LABEL</a>
+          <a href="#" class="designer-item" data-designer-group="sz">VIKTORIA &amp; WOODS</a>
+          <a href="#" class="designer-item" data-designer-group="sz">ZULU &amp; ZEPHYR</a>
+        </div>
+
+        <div class="mega-col designer-mosaic" aria-hidden="true">
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:22% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">CAMILLA AND MARC</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:45% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">VIKTORIA &amp; WOODS</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:60% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">BEC + BRIDGE</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:76% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">SIR THE LABEL</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:30% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">BLANCA</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:52% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">RAEF THE LABEL</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:86% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">BAYSE</div>
+          </a>
+          <a href="#" class="designer-tile" style="--img:url('assets/hero-background-main.png');--pos:95% center">
+            <div class="designer-tile__img"></div>
+            <div class="designer-tile__name">BRIE LEON</div>
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="mega-panel" data-mega-panel="clothing" aria-label="Clothing menu">
+      <div class="mega-inner">
+        <div class="mega-col mega-links">
+          <a href="#" class="mega-link" data-category="CLOTHING">Shop All Clothing</a>
+          <a href="#" class="mega-link">Dresses</a>
+          <a href="#" class="mega-link">Tops</a>
+          <a href="#" class="mega-link">Bottoms</a>
+          <a href="#" class="mega-link">Jackets &amp; Coats</a>
+          <a href="#" class="mega-link">Jumpers</a>
+          <a href="#" class="mega-link">Denim</a>
+          <a href="#" class="mega-link">Knitwear</a>
+          <a href="#" class="mega-link">Activewear</a>
+          <a href="#" class="mega-link">Swim</a>
+          <a href="#" class="mega-link">Kids</a>
+        </div>
+
+        <div class="mega-col mega-media" aria-hidden="true">
+          <a href="#" class="mega-card" style="--img:url('assets/hero-background-main.png');--pos:35% center"></a>
+          <a href="#" class="mega-card" style="--img:url('assets/hero-background-main.png');--pos:55% center"></a>
+          <a href="#" class="mega-card" style="--img:url('assets/hero-background-main.png');--pos:75% center"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <section id="hero" class="view hero">
+      <div class="hero-inner">
+        <div class="hero-copy">FOR EVERYDAY TRENDSETTERS</div>
+      </div>
+    </section>
+    <section id="home" class="view hidden"></section>
+    <section id="product" class="view hidden"></section>
+    <section id="cart" class="view hidden"></section>
+    <section id="checkout" class="view hidden"></section>
+    <section id="confirmation" class="view hidden"></section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">MONALISA</div>
+          <p class="footer-tagline">YOUR CHOICE IS OUR MOTTO</p>
+          <div class="footer-contact" aria-label="Contact details">
+            <div class="footer-contact__row">
+              <span class="footer-contact__label">Email</span>
+              <a class="footer-contact__value" href="mailto:support@monalisa.example">support@monalisa.example</a>
+            </div>
+            <div class="footer-contact__row">
+              <span class="footer-contact__label">Phone</span>
+              <a class="footer-contact__value" href="tel:+15550101234">+1 (555) 010-1234</a>
+            </div>
+            <div class="footer-contact__row">
+              <span class="footer-contact__label">Hours</span>
+              <span class="footer-contact__value">Mon-Sat, 10am-6pm</span>
+            </div>
+          </div>
+          <div class="footer-social" aria-label="Social links">
+            <a href="#" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z" stroke="currentColor" stroke-width="1.6"/>
+                <path d="M17.5 6.5h.01" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M14 9h3V6h-3c-2.2 0-4 1.8-4 4v3H7v3h3v6h3v-6h3l1-3h-4v-3c0-.55.45-1 1-1Z" fill="currentColor"/>
+              </svg>
+            </a>
+            <a href="#" aria-label="X (Twitter)">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M18.9 2H22l-6.8 7.8L23 22h-6.7l-5.2-6.6L5.3 22H2l7.4-8.5L1 2h6.9l4.7 6.1L18.9 2Zm-1.2 18h1.7L7.1 3.9H5.3L17.7 20Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <nav class="footer-col" aria-label="Shop">
+          <h3>Shop</h3>
+          <a href="#" data-category="NEW ARRIVALS">New Arrivals</a>
+          <a href="#" data-category="CLOTHING">Clothing</a>
+          <a href="#" data-category="ACCESSORIES">Accessories</a>
+          <a href="#" data-category="EMPORIUM">Emporium</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Customer care">
+          <h3>Customer Care</h3>
+          <a href="#" data-mega="contact">Contact Us</a>
+          <a href="#">Shipping &amp; Returns</a>
+          <a href="#">Track Order</a>
+          <a href="#">FAQs</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="Company">
+          <h3>Company</h3>
+          <a href="#">About Monalisa</a>
+          <a href="#">Careers</a>
+          <a href="#">Press</a>
+          <a href="#">Sustainability</a>
+        </nav>
+
+        <div class="footer-col footer-newsletter">
+          <h3>Newsletter</h3>
+          <p class="footer-muted">Get updates on new arrivals, drops, and exclusive offers.</p>
+          <form class="footer-form" action="#" onsubmit="return false;">
+            <label class="sr-only" for="footer-email">Email address</label>
+            <input id="footer-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Email address" required>
+            <button type="submit">Subscribe</button>
+          </form>
+          <p class="footer-fineprint">By subscribing you agree to our Privacy Policy.</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-bottom-left" aria-label="Copyright information">
+          <div class="footer-copy-title">Copyright</div>
+          <div class="footer-copy-text">&copy; Monalisa &mdash; 2026. All rights reserved. Monalisa and the Monalisa logo are trademarks of Monalisa.“All brand names, logos, and trademarks are the property of their respective owners. MONALISA is an independent multi-brand retailer.”
+            
+          </div>
+        </div>
+        <div class="footer-payments" aria-label="Accepted payments">
+          <span class="payment-badge">VISA</span>
+          <span class="payment-badge">MASTERCARD</span>
+          <span class="payment-badge">AMEX</span>
+          <span class="payment-badge">PAYPAL</span>
+        </div>
+        <div class="footer-bottom-links" aria-label="Legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Accessibility</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="chat-bubble">Chat</div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

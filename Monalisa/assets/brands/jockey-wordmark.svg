@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <style>
+      .t{font-family:Segoe UI,Roboto,Arial,sans-serif;fill:#111}
+      .b{font-weight:900;letter-spacing:3px}
+      .s{font-weight:700;letter-spacing:5px;opacity:.65}
+    </style>
+  </defs>
+  <text x="100" y="98" text-anchor="middle" dominant-baseline="middle" class="t s" font-size="16">EST.</text>
+  <text x="100" y="122" text-anchor="middle" dominant-baseline="middle" class="t b" font-size="52">JOCKEY</text>
+</svg>
