@@ -1,4 +1,5 @@
 # MONALISA--NXT
 A Fashion Clothing Store
 Famous Clothing Store - Avinash Shukla
-Status - Building
+(Status - Building)
+Made by - HTML , CSS & JavaScript
