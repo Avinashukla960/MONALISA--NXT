@@ -23,3 +23,9 @@ Built entirely with vanilla web technologies, the site is lightweight, fast-load
 - **Product listing pages** — clean grid layouts with product images, names, and prices
 - **Product detail pages** — individual pages with full product info
 - **Responsive design** — works seamlessly on mobile, tablet, and desktop
+- **Shopping cart** — add, remove, and review items before checkout
+- **Checkout flow** — straightforward order form for a frictionless buying experience
+- **Search & filter** — find products quickly by category or keyword
+- **Clean UI** — minimal, distraction-free design focused on the shopping experience
+
+---
