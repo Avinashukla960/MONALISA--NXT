@@ -9,3 +9,11 @@ A modern, multi-category online e-commerce storefront built with pure **HTML, CS
 `https://avinashukla960.github.io/MONALISA--NXT/`
 
 ---
+
+## About
+
+**Monalisa Nxt** is a fully frontend e-commerce website where customers can browse products across multiple categories, view listings, and place orders — all through a smooth, responsive interface.
+
+Built entirely with vanilla web technologies, the site is lightweight, fast-loading, and easy to maintain or extend.
+
+---
