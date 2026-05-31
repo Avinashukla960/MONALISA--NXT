@@ -29,3 +29,10 @@ Built entirely with vanilla web technologies, the site is lightweight, fast-load
 - **Clean UI** — minimal, distraction-free design focused on the shopping experience
 
 ---
+
+
+
+
+## Getting Started
+
+No installation or build step required.
