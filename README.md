@@ -44,6 +44,6 @@ Open `index.html` directly in your browser:
 # macOS
 open index.html
 
-
+```bash
 # Linux
 xdg-open index.html
