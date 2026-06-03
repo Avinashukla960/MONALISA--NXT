@@ -43,7 +43,7 @@ Open `index.html` directly in your browser:
 ```bash
 # macOS
 open index.html
-
+```
 ```bash
 # Linux
 xdg-open index.html
