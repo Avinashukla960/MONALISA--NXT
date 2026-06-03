@@ -30,8 +30,12 @@ Built entirely with vanilla web technologies, the site is lightweight, fast-load
 
 ---
 
+## Getting Started
+
+No installation or build step required.
+
 ```bash
 git clone https://github.com/your-username/monalisa-nxt.git
 cd monalisa-nxt
 ```
-ation or build step required.
+
