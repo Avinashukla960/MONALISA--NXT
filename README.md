@@ -38,4 +38,5 @@ No installation or build step required.
 git clone https://github.com/your-username/monalisa-nxt.git
 cd monalisa-nxt
 ```
+Open `index.html` directly in your browser:
 
