@@ -40,3 +40,6 @@ cd monalisa-nxt
 ```
 Open `index.html` directly in your browser:
 
+```bash
+# macOS
+open index.html
