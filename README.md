@@ -35,7 +35,7 @@ Built entirely with vanilla web technologies, the site is lightweight, fast-load
 No installation or build step required.
 
 ```bash
-git clone https://github.com/your-username/monalisa-nxt.git
+git clone https://github.com/avinashukla960/monalisa-nxt.git
 cd monalisa-nxt
 ```
 Open `index.html` directly in your browser:
