@@ -59,3 +59,19 @@ Or serve it locally for a better dev experience:
 npx serve .
 # Visit http://localhost:3000
 ```
+## Project Structure
+
+```
+monalisa-nxt/
+├── index.html          # Homepage / landing page
+├── products.html       # Product listing / category page
+├── product.html        # Single product detail page
+├── cart.html           # Shopping cart
+├── checkout.html       # Checkout & order form
+├── css/
+│   └── style.css       # Global styles
+├── js/
+│   └── main.js         # App logic (cart, filters, etc.)
+└── assets/
+    └── images/         # Product images and UI assets
+```
