@@ -50,3 +50,6 @@ xdg-open index.html
 ```
 
 ```bash
+# Windows
+start index.html
+```
