@@ -75,3 +75,7 @@ monalisa-nxt/
 └── assets/
     └── images/         # Product images and UI assets
 ```
+
+## Tech Stack
+
+| Layer | Technology |
