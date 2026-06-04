@@ -53,3 +53,9 @@ xdg-open index.html
 # Windows
 start index.html
 ```
+Or serve it locally for a better dev experience:
+
+```bash
+npx serve .
+# Visit http://localhost:3000
+```
