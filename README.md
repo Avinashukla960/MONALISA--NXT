@@ -47,3 +47,4 @@ open index.html
 ```bash
 # Linux
 xdg-open index.html
+```
