@@ -79,3 +79,5 @@ monalisa-nxt/
 ## Tech Stack
 
 | Layer | Technology |
+| Markup | HTML5 |
+| Styling | CSS3 (Flexbox, Grid, custom properties) |
